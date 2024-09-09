@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Helvetica";
+    src: url('../fonts/helvetica/Helvetica.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica";
+}
+
+:root {
+    --header-height: 70px;
+    --header-icon-font-size: 22px;
+
+    --nav-large-width: 250px;
+    --nav-small-width: 80px;
+    --nav-icon-font-size: 20px;
+
+    --light: #ffffff;
+
+    --gray-dark: #1D2630;
+    --gray-100: #F8F9FA;
+    --gray-200: #F3F5F7;
+    --gray-300: #DBE0E5;
+    --gray-400: #BEC8D0;
+    --gray-500: #8996A4;
+    --gray-600: #5B6B79;
+    --gray-700: #3E4853;
+    --gray-800: #1D2630;
+    --gray-900: #131920;
+}
+
+/* ========================================================================== */
+/* ============================== PRIMARY COLOR ============================= */
+[data-primary-color="blue"] {
+    --primary-color: #04A9F5;
+    --primary-light-color: #04A9F522;
+}
+
+[data-primary-color="red"] {
+    --primary-color: #F44236;
+    --primary-light-color: #F4423622;
+}
+
+/* ========================================================================== */
+/* =============================== NAVBAR SIZE ============================== */
+[data-navbar-size="large"] {
+    --nav-vertical-width: 250px;
+}
+
+[data-navbar-size="small"] {
+    --nav-vertical-width: 80px;
+}
+
+/* ========================================================================== */
+/* ================================== THEME ================================= */
+[data-theme="light"] {
+    --nav-bg-color: var(--gray-100);
+    --nav-title-color: var(--gray-dark);
+    --nav-item-color: var(--gray-dark);
+    --nav-item-hover-color: var(--gray-300);
+    --nav-submenu-border-color: var(--gray-300);
+}
+
+[data-theme="dark"] {
+    --nav-bg-color: var(--gray-dark);
+    --nav-title-color: var(--gray-600);
+    --nav-item-color: var(--gray-100);
+    --nav-item-hover-color: var(--gray-600);
+    --nav-submenu-border-color: var(--gray-300);
+}
+
+[data-navbar-theme="light"] {
+    --nav-bg-color: var(--gray-100);
+    --nav-title-color: var(--gray-dark);
+    --nav-item-color: var(--gray-dark);
+    --nav-item-hover-color: var(--gray-300);
+    --nav-submenu-border-color: var(--gray-300);
+}
+
+[data-navbar-theme="dark"] {
+    --nav-bg-color: var(--gray-dark);
+    --nav-title-color: var(--gray-600);
+    --nav-item-color: var(--gray-100);
+    --nav-item-hover-color: var(--gray-600);
+    --nav-submenu-border-color: var(--gray-300);
+}

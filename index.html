@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en" data-layout="vertical" data-navbar-size="large" data-theme="light" data-navbar-theme="light" data-primary-color="blue">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="csrf-token" content="" />
+
+    <title>My Template</title>
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <link rel="stylesheet" href="assets/css/init.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+
+    <!-- PHOSPHOR DUOTONE ICONS -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/phosphor/duotone/style.css" />
+</head>
+
+<body>
+    <div id="blur"></div>
+
+    <header class="header-shadow">
+        <div id="header-wrapper">
+            <div class="header-btn btn-toggle-navbar">
+                <i class="ph-duotone ph-list"></i>
+            </div>
+
+            <div class="header-btn" id="btn-switch-theme">
+                <div id="theme-light-icon">
+                    <i class="ph-duotone ph-sun-dim"></i>
+                </div>
+
+                <div id="theme-dark-icon">
+                    <i class="ph-duotone ph-moon"></i>
+                </div>
+            </div>
+        </div><!-- header-wrapper -->
+    </header>
+
+    <div id="navbar">
+        <div id="nav-header">
+            <div id="nav-logo">
+                <div id="nav-logo-light">
+                    <a href="/" class="logo-lg">
+                        <img src="assets/images/logo-dark.png" />
+                    </a>
+
+                    <a href="/" class="logo-sm">
+                        <img src="assets/images/logo-sm-dark.png" />
+                    </a>
+                </div>
+
+                <div id="nav-logo-dark">
+                    <a href="/" class="logo-lg">
+                        <img src="assets/images/logo-light.png" />
+                    </a>
+
+                    <a href="/" class="logo-sm">
+                        <img src="assets/images/logo-sm-light.png" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="btn btn-toggle-navbar">
+                <i class="ph-duotone ph-list fs-24"></i>
+            </div>
+        </div>
+
+        <ul id="nav-menu">
+            <li class="nav-title">Navigation</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="">
+                    <span class="nav-icon"><i class="ph-duotone ph-house-simple"></i></span>
+                    <span class="nav-text">Dashboard</span>
+                </a>
+            </li>
+
+            <li class="nav-item active">
+                <a href="" class="nav-link">
+                    <span class="nav-icon"><i class="ph-duotone ph-layout"></i></span>
+                    <span class="nav-text">Layouts</span>
+                    <span class="nav-arrow"></span>
+                </a>
+
+                <ul class="nav-submenu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">Vertical</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">Horizontal</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-title">Pages</li>
+
+            <li class="nav-item">
+                <a href="" class="nav-link">
+                    <span class="nav-icon"><i class="ph-duotone ph-app-window"></i></span>
+                    <span class="nav-text">Authentication</span>
+                    <span class="nav-arrow"></span>
+                </a>
+
+                <ul class="nav-submenu">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">Sign In</span>
+                            <span class="nav-arrow"></span>
+                        </a>
+
+                        <ul class="nav-submenu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="">
+                                    <span class="nav-icon"></span>
+                                    <span class="nav-text">Basic</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="">
+                                    <span class="nav-icon"></span>
+                                    <span class="nav-text">Cover</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <span class="nav-icon"></span>
+                            <span class="nav-text">Sign Up</span>
+                            <span class="nav-arrow"></span>
+                        </a>
+
+                        <ul class="nav-submenu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="">
+                                    <span class="nav-icon"></span>
+                                    <span class="nav-text">Basic</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="">
+                                    <span class="nav-icon"></span>
+                                    <span class="nav-text">Cover</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div><!-- navbar -->
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
